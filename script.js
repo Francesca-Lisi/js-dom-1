@@ -11,6 +11,6 @@ bottone.innerHTML = msgOn; // assegno un testo di default al innerHtml del botot
 
 bottone.addEventListener('click', () => {
 target.classList.toggle('hide');
-bottone.innerHTML = target.classList.contains('hide') ? msgOn : msgOff
+bottone.innerHTML = target.classList.contains('hide') ? msgOff : msgOn
 target2.classList.toggle('show');
 })
