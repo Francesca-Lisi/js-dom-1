@@ -1,4 +1,15 @@
+
+
 .container{
   border: 1px solid lightsalmon;
   background-color: rgba(250, 245, 183, 0.178);
+  position: relative;
+}
+
+.hide{
+  display: none;
+}
+
+.show{
+  display: inline;
 }
